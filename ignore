@@ -1,0 +1,45 @@
+# Compiled object files and binaries
+*.o
+*.obj
+*.lo
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake and Make build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# GTK and UI tool artifacts
+*.glade~
+*.ui~
+*.gresource.xml~
+*.gresource.c
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Backup and temp files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
